@@ -2,6 +2,8 @@ package com.example.labo4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -25,19 +27,34 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
         revenirArriere1 = findViewById(R.id.btnRevenir1_id);
         revenirArriere1.setOnClickListener(this);
 
-
-
     }
 
     @Override
     public void onClick(View v) {
         editTextPhoneNumber = findViewById(R.id.editTxtPhoneNum_id);
         String strNumeroTelephone = editTextPhoneNumber.getText().toString();
-        if(!strNumeroTelephone.isBlank()){
-            // Concaténation avec tel
-            String completNumero =
-        }
 
+
+
+        // Si on appuie sur le bouton appeler
+        if(v == appeler){
+            if(!strNumeroTelephone.isBlank()){
+                // Concaténation avec tel
+                String completNumero ="tel:"+strNumeroTelephone;
+                Uri u  = Uri.parse(completNumero);
+
+                Intent intent21 = new Intent(Intent.ACTION_CALL,u);
+                startActivity(intent21);
+       }
+//        else if () { faire un toast
+//
+//            }
+
+        }
+        // Si on appuie sur le bouton revenir en arriere
+        else if(v == revenirArriere1){
+            finish();
+        }
     }
 }
 
