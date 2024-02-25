@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewLab_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laboratoire_3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/btnPrendrePhoto_id"
+        android:layout_width="321dp"
+        android:layout_height="52dp"
+        android:text="@string/prendre_une_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnComposerTel_id"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/btnComposerTel_id"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnComposerTel_id"
+        android:layout_width="319dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/composer_un_num_ro_de_t_l_phone"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrendrePhoto_id"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLab_id"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textViewLab_id" />
+
+    <Button
+        android:id="@+id/btnConsulterWeb_id"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/consulter_un_site_web"
+        app:layout_constraintEnd_toEndOf="@+id/btnPrendrePhoto_id"
+        app:layout_constraintStart_toStartOf="@+id/btnPrendrePhoto_id"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrendrePhoto_id" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="369dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="367dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

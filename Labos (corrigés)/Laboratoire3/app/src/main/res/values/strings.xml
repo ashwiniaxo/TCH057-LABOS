@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Laboratoire3</string>
+    <string name="composer_un_num_ro_de_t_l_phone">Composer un numéro de téléphone</string>
+    <string name="consulter_un_site_web">Consulter un site web</string>
+    <string name="prendre_une_photo">Prendre une photo</string>
+    <string name="laboratoire_3">Laboratoire 3</string>
+    <string name="faire_un_appel">Faire un appel</string>
+    <string name="retour">Retour</string>
+    <string name="entrer_le_num_ro_de_phone">Entrer le num. de phone</string>
+    <string name="trouver_le_site">Trouver le site</string>
+    <string name="entrer_une_adresse_web">ex : https://www.etsmtl.ca</string>
+
+</resources>

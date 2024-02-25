@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SiteWebActivity">
+
+    <EditText
+        android:id="@+id/editTextAdresseWeb_id"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="194dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/entrer_une_adresse_web"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAdresseWeb_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/trouver_le_site"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAdresseWeb_id" />
+
+    <Button
+        android:id="@+id/btnRetour_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="169dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
