@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LaboNote1_Naim_Himrane</string>
+    <string name="bienvenue_au_laboratoire_not_1">Bienvenue au laboratoire noté 1</string>
+    <string name="quitter">Quitter</string>
+    <string name="entrer_le_nom_d_utilisateur">Entrer le nom d\'utilisateur</string>
+    <string name="nom_utilisateur">Nom utilisateur :</string>
+    <string name="mot_de_passe">Mot de passe :</string>
+    <string name="bonjour">Bonjour ...</string>
+    <string name="verifier_la_connexion_internet">Vérifier la connexion Internet</string>
+    <string name="entrer_une_adresse_web">https://www.boursorama.com/bourse/devises</string>
+    <string name="login">Login</string>
+    <string name="entrer_le_mot_de_passe">Entrer le mot de passe</string>
+</resources>

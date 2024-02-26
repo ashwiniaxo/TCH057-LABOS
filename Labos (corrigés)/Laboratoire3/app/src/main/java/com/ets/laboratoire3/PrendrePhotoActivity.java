@@ -52,5 +52,5 @@ public class PrendrePhotoActivity extends AppCompatActivity implements View.OnCl
             Bitmap photo = (Bitmap) data.getExtras().get("data");
             imgPhoto.setImageBitmap(photo);
         }
-    }
+    }ÅA
 }
